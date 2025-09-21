@@ -1,0 +1,22 @@
+services:
+  cinemille-backend:
+    image: cinemille-backend:latest
+    container_name: backend
+    expose:
+      - "3000"
+    networks:
+      - app-net
+
+  cinemille-frontend:
+    image: cinemille-frontend:latest
+    container_name: frontend
+    ports:
+      - "80:80"
+    depends_on:
+      - cinemille-backend
+    networks:
+      - app-net
+
+networks:
+  app-net:
+    driver: bridge
