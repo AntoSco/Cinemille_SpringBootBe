@@ -9,7 +9,7 @@ L’obiettivo è quello di fornire servizi REST al client.
 
 ## 📑 Documentazione
 
-Ulteriori dettagli sono disponibili nella cartella `docs/`:
+I documenti di progetto sono disponibili nella cartella [`docs`](./src/main/resources/docs):
 
 * `ANALISI.md` – requisiti funzionali/tecnici.
 * `ARCHITETTURA.md` – descrizione architetturale e diagrammi.
@@ -30,7 +30,7 @@ Ulteriori dettagli sono disponibili nella cartella `docs/`:
 ## ⚙️ Requisiti Tecnici
 
 - Spring Boot come framework di backend.
-- Diagrammi UML e documentazione architetturale nella cartella [`docs`](./docs).
+- Diagrammi UML e documentazione architetturale.
 
 ---
 
