@@ -39,7 +39,7 @@ I documenti di progetto sono disponibili nella cartella [`docs`](./src/main/reso
 ### 1. Clonare il repository
 
 ```bash
-git clone https://github.com/TotoSco/Cinemille_SpringBootBe.git
+git clone https://github.com/AntoSco/Cinemille_SpringBootBe.git
 cd Cinemille_SpringBootBe
 ````
 
@@ -245,11 +245,3 @@ Cinemille_SpringBootBe/
 * MapStruct (opzionale)
 * H2 in memory Database
 * Docker / Docker Compose
-
----
-
-## 👨‍💻 Autore
-
-Progetto sviluppato da **[TotoSco](https://github.com/TotoSco)** come prototipo dimostrativo.
-
----
